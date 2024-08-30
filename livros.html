@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lista Livros</title>
+  <link rel="stylesheet" href="lista.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<main class="container mt-4">
+    <h1 class="mb-4">Lista de Livros</h1>
+    <a class="navbar-brand" href="index.html">Livros Angular</a>
+  
+    <table class="table table-striped table-bordered">
+      <thead>
+        <tr>
+          <th>Título</th>
+          <th>Editora</th>
+          <th>Autores</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="livros">
+          
+          <td *ngFor="livros " >Titulo</td>
+  
+           
+          <td *ngfor="codEditora">{{ obterNome(livro.codEditora) }}</td>
+  
+           
+          <td>
+            <ul class="list-unstyled">
+              <li *ngFor="Autores">{{ autor }}</li>
+            </ul>
+          </td>
+  
+           
+          <td>
+            <button class="btn btn-danger" (click)="Excluir" >Excluir</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </main>

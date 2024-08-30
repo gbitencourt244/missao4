@@ -1,0 +1,46 @@
+
+h1 {
+    font-size: 2rem;  
+    font-weight: bold;  
+    color: #333; 
+    text-align: center;  
+    margin-bottom: 1.5rem;  
+  }
+  
+   
+  .table-container {
+    margin-top: 2rem; 
+  }
+  
+   
+  .table {
+    border-radius: 0.5rem;  
+    overflow: hidden;  
+  }
+  
+  
+  .btn-danger {
+    margin: 0; 
+    padding: 0.5rem 1rem; 
+    font-size: 0.875rem; 
+  }
+  
+  
+  ul.list-unstyled {
+    padding-left: 0;  
+    margin-bottom: 0;  
+  }
+  
+  ul.list-unstyled li {
+    padding: 0.25rem 0;  
+  }
+  
+  
+  .table tbody tr {
+    border-bottom: 1px solid #ddd; 
+  }
+  
+   
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9; 
+  }
